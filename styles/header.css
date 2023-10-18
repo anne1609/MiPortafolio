@@ -30,7 +30,7 @@ body{
     counter-reset: section;
     
     background-color: var(--color-5);
-    overflow: hidden;
+    overflow: auto;
 }
 body::-webkit-scrollbar {
     width: 7px;               /* width of the entire scrollbar */

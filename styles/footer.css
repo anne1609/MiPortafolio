@@ -22,7 +22,7 @@
     text-decoration: none;
     transition: .3s ease;
 
-    color: var(--text-color-2);
+    color: var(--text-color-1);
 }
 .links_items_footer li a:hover{
     color: var(--color-1);
@@ -35,7 +35,7 @@
     padding: 15px 0;
     transition: .3s ease;
 
-    color: var(--text-color-2);
+    color: var(--text-color-1);
 }
 .text_footer_author:hover{
     color: var(--color-1);

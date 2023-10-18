@@ -1,0 +1,30 @@
+
+
+.typed-text {
+    display: inline-block;
+}
+
+.cursor {
+    display: inline-block;
+    vertical-align: middle;
+    animation: blink-caret 0.7s infinite;
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: white; }
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+.typed-text {
+    width: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: .15em solid white;
+    animation: typing 5s steps(20, end) infinite; /
+}
+
